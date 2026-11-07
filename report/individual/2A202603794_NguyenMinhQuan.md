@@ -16,13 +16,13 @@
 
 ## 2. Kết quả chính
 
-
-                                     f1  f1_SUB
-1. BoW + LogReg (tự code)        0.859   0.919
-2. BoW + MLP (deep learning)     0.906   0.919
-3a. Encoder (MiniLM) + kNN       0.907   0.974
-3b. Encoder (MiniLM) + LogReg    0.957   0.974
-3c. Encoder (MiniLM) + MLP head  0.946   0.974
+| Mô hình | f1 | f1_SUB |
+|---|---:|---:|
+| 1. BoW + LogReg (tự code) | 0.859 | 0.919 |
+| 2. BoW + MLP (deep learning) | 0.906 | 0.919 |
+| 3a. Encoder (MiniLM) + kNN | 0.907 | 0.974 |
+| 3b. Encoder (MiniLM) + LogReg | 0.957 | 0.974 |
+| 3c. Encoder (MiniLM) + MLP head | 0.946 | 0.974 |
 
 ## 3. Dự đoán và thực tế
 
