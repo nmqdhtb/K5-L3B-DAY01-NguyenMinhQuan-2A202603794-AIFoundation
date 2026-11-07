@@ -38,7 +38,11 @@
 
 ## 6. Phương án cho sản phẩm thật
 
-(1) Đạt độ trễ: (p95 < 50 ms) BoW + LogReg, BoW + MLP, Encoder + LogReg, Encoder + MLP head. Đạt cả độ trễ lẫn chất lượng:(p95 \approx 36.60 ms, F1 \approx 0.957). Encoder (MiniLM) + LogReg. Chi phí LLM/tháng: Khoảng  30.000− 150.000 USD/tháng cho 300 triệu tin nhắn. 
+Đạt độ trễ (p95 < 50 ms): BoW + LogReg, BoW + MLP, Encoder + LogReg, Encoder + MLP head.
+
+Đạt cả độ trễ lẫn chất lượng (p95: 36.60 ms, F1: 0.957): Encoder (MiniLM) + LogReg.
+
+Chi phí LLM/tháng: Khoảng  30.000− 150.000 USD/tháng cho 300 triệu tin nhắn. 
 
 ## 7. AI log và điều đã học
 
